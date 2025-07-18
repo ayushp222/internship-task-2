@@ -1,0 +1,18 @@
+SQL Task 2: Advanced Queries with Joins and Filtering
+
+Query 1: List all students and the courses they are enrolled in
+- Uses INNER JOIN on Students, Enrolments, and Courses.
+- Shows student name with course name.
+
+Query 2: Number of students enrolled in each course
+- Uses LEFT JOIN to include even those with 0 enrolments.
+- GROUP BY + COUNT used to show totals.
+
+Query 3: Students enrolled in more than one course
+- GROUP BY student_id and filter using HAVING COUNT > 1.
+
+Query 4: Courses with no enrolled students
+- LEFT JOIN and WHERE enrolment_id IS NULL is used.
+
+## Summary
+You learn how to extract insights using SQL joins and filters.
