@@ -1,0 +1,4 @@
+Product,Region,Sales,Profit,Discount,Category,Date
+Printer,West,200,20,0.1,Technology,2023-01-10
+Chair,East,150,15,0.05,Furniture,2023-01-11
+Phone,South,400,50,0.2,Technology,2023-01-12
